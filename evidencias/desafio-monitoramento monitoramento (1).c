@@ -1,27 +1,3 @@
-/*
- * Sistema Inteligente de Monitoramento Industrial
- * Disciplina: Programação em C
- * Professora: Karla Sartin
- *
- * O programa le a temperatura de um sensor repetidamente,
- * valida as entradas, calcula estatisticas (media, maior,
- * menor, quantidade acima do limite) e encerra automaticamente
- * quando detecta 3 leituras CONSECUTIVAS acima do limite de
- * seguranca definido pelo usuario.
- *
- * Estruturas de repeticao utilizadas:
- *  - while    -> usada na validacao de entradas, pois a
- *                condicao (entrada invalida) precisa ser
- *                testada ANTES de repetir a correcao. Se a
- *                entrada digitada ja for valida na primeira
- *                tentativa, o bloco de correcao nunca executa.
- *  - do...while -> usada no laco principal de leitura do
- *                sensor, pois o programa PRECISA ler pelo
- *                menos uma temperatura antes de poder testar
- *                a condicao de parada (3 leituras consecutivas
- *                acima do limite). A condicao so pode ser
- *                avaliada DEPOIS que uma leitura acontece.
- */
 
 #include <stdio.h>
 
