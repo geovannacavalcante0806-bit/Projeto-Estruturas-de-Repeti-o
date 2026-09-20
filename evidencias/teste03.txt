@@ -1,0 +1,24 @@
+TESTE 3: 3 temperaturas consecutivas acima do limite (encerramento automatico)
+SISTEMA INTELIGENTE DE MONITORAMENTO DE TEMPERATURA
+
+Digite o limite de temperatura de seguranca (C): 
+Limite definido: 80.0 C
+Digite as temperaturas lidas pelo sensor.
+Para encerrar manualmente a qualquer momento, digite -9999
+
+Temperatura #1 (C): Temperatura #2 (C):   -> ALERTA: temperatura acima do limite! (1 consecutiva(s))
+Temperatura #3 (C):   -> ALERTA: temperatura acima do limite! (2 consecutiva(s))
+Temperatura #4 (C):   -> ALERTA: temperatura acima do limite! (3 consecutiva(s))
+
+*** ALERTA CRITICO: 3 temperaturas consecutivas acima do limite! Encerrando monitoramento. ***
+
+RELATORIO FINAL
+
+Total de leituras realizadas : 4
+Limite de seguranca definido  : 80.0 C
+Temperatura media              : 75.00 C
+Maior temperatura registrada   : 95.0 C
+Menor temperatura registrada   : 30.0 C
+Leituras acima do limite       : 3
+Percentual acima do limite     : 75.0%
+Motivo do encerramento         : 3 leituras consecutivas acima do limite
